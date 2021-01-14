@@ -1,0 +1,292 @@
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  color: red;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+
+
+
+.carousel-indicators li {
+  border: 2px solid #d44b45;
+
+}
+
+#myCarousel, .carousel-inner{
+	background: rgba(0,0,0, 0.1) url("../img/footer_pattern.png") repeat !important;
+}
+#slider_area .carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-caption {
+    z-index: 10;
+}
+#slider_area .carousel .item {
+    background-color: #777;
+    height: 500px;
+}
+.carousel-inner > .item > img {
+    min-height: 100%;
+    left: 0;
+    min-width: 100%;
+    top: 0;
+}
+
+
+
+.carousel-control {
+  width: 15%;
+}
+
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -26px !important;
+}
+
+.carousel .item, .carousel-inner > .active{
+	background-color: transparent !important;
+}
+
+
+.carousel-control.left, .carousel-control.right{
+	background: none !important;
+}
+
+
+
+.carousel-caption {
+  left: 13%;
+  padding-bottom: 30px;
+  right: 20%;
+  text-align: left;
+  top: 20%;
+  width: 320px;
+}
+
+
+.carousel-caption h4{
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 #333;
+}
+
+.carousel-caption h3{
+	color: #d44b45;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+
+.content{
+	color: #222;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+.carousel-caption {
+  left: 13%;
+  padding-bottom: 30px;
+  right: 20%;
+  text-align: left;
+  top: 20%;
+  width: 160px;
+}
+	
+.carousel-caption .btn {
+  padding: 0px 8px;
+  text-shadow: none;
+}
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.carousel-caption {
+  left: 18%;
+  padding-bottom: 30px;
+  right: 20%;
+  text-align: left;
+  top: 20%;
+  width: 170px;
+}
+
+
+	.navbar-toggle {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 8px;
+  margin-right: 11px;
+  margin-top: 8px;
+  padding: 7px 4px;
+  position: relative;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	.navbar-toggle{
+		padding: 9px 10px;
+		
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#carousel-example .carousel-inner{
+	background:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+.tasti_slider{
+	margin-top:32px !important;
+}
+
+
+
+
+.control-left{
+	float:left;
+}
+.controls a{
+	display:inline-block;
+	float:left
+}
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  font-size: 1.9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 19px;
+}
+
+
+
+
+.round_icon {
+  background: #fff none repeat scroll 0 0 !important;
+  border-radius: 100%;
+  height: 50px !important;
+  padding: 7px;
+  position: absolute;
+  width: 50px !important;
+}
+
+.carousel-control {
+  width: 32%;
+}
+
+
+
+.carousel-caption{
+	left:26%;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.separator  h4 {
+
+	margin-top:0 !important;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+	.separator  h4 {
+		margin-top:0 !important;
+	}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.navbar-toggle{
+		  padding: 9px 10px;
+		
+	}
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1500px) and (max-width: 25000px) {
+
+.carousel-caption{
+	left:27%;
+}
+
+.carousel-control {
+  width: 43%;
+}
+}
